@@ -4,6 +4,6 @@ package co.edu.ucc.insumap.excepcion;
 public class RecursoNoEncontradoException extends RuntimeException {
 
     public RecursoNoEncontradoException(String recurso, String id) {
-        super(recurso + " no encontrado: " + id);
+        super("No existe " + recurso.toLowerCase() + " con id " + id);
     }
 }
