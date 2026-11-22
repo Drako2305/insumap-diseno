@@ -1,0 +1,42 @@
+[
+  {
+    "_id": { "$oid": "6b1000000000000000000001" },
+    "nombres": "Ana Maria",
+    "apellidos": "Gomez Rojas",
+    "documentoIdentidad": "1001234567",
+    "fechaNacimiento": { "$date": "1990-05-10T00:00:00Z" },
+    "tipoDiabetes": "TIPO_1",
+    "email": "ana.gomez@example.com",
+    "telefono": "3001234567",
+    "configuracionMapa": { "filas": 3, "columnas": 4 },
+    "cuidadores": [
+      { "nombre": "Luis Gomez", "parentesco": "Hermano", "telefono": "3009876543", "email": "luis.gomez@example.com" }
+    ],
+    "medicoTratante": {
+      "nombre": "Dra. Laura Perez",
+      "especialidad": "Endocrinologia",
+      "email": "lperez@example.com",
+      "telefono": "6015550101"
+    },
+    "pilaDeshacer": ["6b2000000000000000000004", "6b2000000000000000000005"],
+    "fechaRegistro": { "$date": "2026-11-01T14:00:00Z" },
+    "_class": "co.edu.ucc.insumap.modelo.Paciente"
+  },
+  {
+    "_id": { "$oid": "6b1000000000000000000002" },
+    "nombres": "Carlos",
+    "apellidos": "Ruiz Mora",
+    "documentoIdentidad": "1009999999",
+    "fechaNacimiento": { "$date": "1952-03-02T00:00:00Z" },
+    "tipoDiabetes": "TIPO_2",
+    "email": "carlos.ruiz@example.com",
+    "telefono": "3015550000",
+    "configuracionMapa": { "filas": 3, "columnas": 4 },
+    "cuidadores": [
+      { "nombre": "Marta Ruiz", "parentesco": "Hija", "telefono": "3021112233", "email": "marta.ruiz@example.com" }
+    ],
+    "pilaDeshacer": [],
+    "fechaRegistro": { "$date": "2026-11-05T15:30:00Z" },
+    "_class": "co.edu.ucc.insumap.modelo.Paciente"
+  }
+]

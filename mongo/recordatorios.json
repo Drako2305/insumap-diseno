@@ -1,0 +1,30 @@
+[
+  {
+    "_id": { "$oid": "6b4000000000000000000001" },
+    "pacienteId": "6b1000000000000000000001",
+    "cronogramaId": "6b3000000000000000000001",
+    "tipoInsulina": "PROLONGADA",
+    "unidades": 20.0,
+    "fechaOriginal": { "$date": "2026-11-20T12:00:00Z" },
+    "fechaProgramada": { "$date": "2026-11-20T12:00:00Z" },
+    "fechaEnvio": { "$date": "2026-11-20T12:00:30Z" },
+    "fechaRespuesta": { "$date": "2026-11-20T12:03:00Z" },
+    "estado": "CONFIRMADO",
+    "aplazamientos": 0,
+    "aplicacionId": "6b2000000000000000000003",
+    "_class": "co.edu.ucc.insumap.modelo.Recordatorio"
+  },
+  {
+    "_id": { "$oid": "6b4000000000000000000002" },
+    "pacienteId": "6b1000000000000000000001",
+    "cronogramaId": "6b3000000000000000000001",
+    "tipoInsulina": "PROLONGADA",
+    "unidades": 20.0,
+    "fechaOriginal": { "$date": "2026-11-21T02:00:00Z" },
+    "fechaProgramada": { "$date": "2026-11-21T02:15:00Z" },
+    "fechaEnvio": { "$date": "2026-11-21T02:00:30Z" },
+    "estado": "APLAZADO",
+    "aplazamientos": 1,
+    "_class": "co.edu.ucc.insumap.modelo.Recordatorio"
+  }
+]

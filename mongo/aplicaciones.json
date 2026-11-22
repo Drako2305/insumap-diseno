@@ -1,0 +1,58 @@
+[
+  {
+    "_id": { "$oid": "6b2000000000000000000001" },
+    "pacienteId": "6b1000000000000000000001",
+    "microzonaId": "abd_izq_04",
+    "zonaMacro": "ABDOMEN", "lado": "IZQUIERDO", "fila": 0, "columna": 3,
+    "tipoInsulina": "RAPIDA", "unidades": 6.0,
+    "fechaHora": { "$date": "2026-11-18T12:00:00Z" },
+    "registradoPor": "PACIENTE",
+    "semaforoAlRegistrar": "VERDE", "enZonaRecomendada": true, "deshecha": false,
+    "_class": "co.edu.ucc.insumap.modelo.Aplicacion"
+  },
+  {
+    "_id": { "$oid": "6b2000000000000000000002" },
+    "pacienteId": "6b1000000000000000000001",
+    "microzonaId": "bra_der_01",
+    "zonaMacro": "BRAZOS", "lado": "DERECHO", "fila": 0, "columna": 0,
+    "tipoInsulina": "RAPIDA", "unidades": 5.5,
+    "fechaHora": { "$date": "2026-11-19T00:30:00Z" },
+    "registradoPor": "CUIDADOR", "notas": "Aplicada por el hermano",
+    "semaforoAlRegistrar": "VERDE", "enZonaRecomendada": true, "deshecha": false,
+    "_class": "co.edu.ucc.insumap.modelo.Aplicacion"
+  },
+  {
+    "_id": { "$oid": "6b2000000000000000000003" },
+    "pacienteId": "6b1000000000000000000001",
+    "microzonaId": "mus_izq_06",
+    "zonaMacro": "MUSLOS", "lado": "IZQUIERDO", "fila": 1, "columna": 1,
+    "tipoInsulina": "PROLONGADA", "unidades": 20.0,
+    "fechaHora": { "$date": "2026-11-20T12:00:00Z" },
+    "registradoPor": "PACIENTE",
+    "semaforoAlRegistrar": "VERDE", "enZonaRecomendada": false, "deshecha": false,
+    "recordatorioId": "6b4000000000000000000001",
+    "_class": "co.edu.ucc.insumap.modelo.Aplicacion"
+  },
+  {
+    "_id": { "$oid": "6b2000000000000000000004" },
+    "pacienteId": "6b1000000000000000000001",
+    "microzonaId": "abd_izq_03",
+    "zonaMacro": "ABDOMEN", "lado": "IZQUIERDO", "fila": 0, "columna": 2,
+    "tipoInsulina": "RAPIDA", "unidades": 6.0,
+    "fechaHora": { "$date": "2026-11-21T12:10:00Z" },
+    "registradoPor": "PACIENTE",
+    "semaforoAlRegistrar": "AMARILLO", "enZonaRecomendada": false, "deshecha": false,
+    "_class": "co.edu.ucc.insumap.modelo.Aplicacion"
+  },
+  {
+    "_id": { "$oid": "6b2000000000000000000005" },
+    "pacienteId": "6b1000000000000000000001",
+    "microzonaId": "glu_der_05",
+    "zonaMacro": "GLUTEOS", "lado": "DERECHO", "fila": 1, "columna": 0,
+    "tipoInsulina": "RAPIDA", "unidades": 6.0,
+    "fechaHora": { "$date": "2026-11-22T00:15:00Z" },
+    "registradoPor": "CUIDADOR",
+    "semaforoAlRegistrar": "VERDE", "enZonaRecomendada": true, "deshecha": false,
+    "_class": "co.edu.ucc.insumap.modelo.Aplicacion"
+  }
+]

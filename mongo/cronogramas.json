@@ -1,0 +1,26 @@
+[
+  {
+    "_id": { "$oid": "6b3000000000000000000001" },
+    "pacienteId": "6b1000000000000000000001",
+    "nombre": "Insulina basal",
+    "tipoInsulina": "PROLONGADA",
+    "unidades": 20.0,
+    "horas": ["07:00", "21:00"],
+    "diasSemana": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"],
+    "activo": true,
+    "fechaCreacion": { "$date": "2026-11-01T14:05:00Z" },
+    "_class": "co.edu.ucc.insumap.modelo.CronogramaDosis"
+  },
+  {
+    "_id": { "$oid": "6b3000000000000000000002" },
+    "pacienteId": "6b1000000000000000000001",
+    "nombre": "Bolo almuerzo",
+    "tipoInsulina": "RAPIDA",
+    "unidades": 6.0,
+    "horas": ["12:30"],
+    "diasSemana": ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY"],
+    "activo": true,
+    "fechaCreacion": { "$date": "2026-11-01T14:06:00Z" },
+    "_class": "co.edu.ucc.insumap.modelo.CronogramaDosis"
+  }
+]
