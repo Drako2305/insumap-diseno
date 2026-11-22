@@ -3,7 +3,6 @@
 Sistema inteligente de mapeo corporal y gestión de rotación para la administración de insulina.
 Backend REST en **Java 21 + Spring Boot 4.2** con base de datos **MongoDB**.
 
-> Proyecto académico. No es un dispositivo médico y no reemplaza el criterio clínico.
 
 ## Estructura del repositorio
 
