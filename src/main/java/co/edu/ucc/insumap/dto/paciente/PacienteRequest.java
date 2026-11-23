@@ -20,6 +20,6 @@ public record PacienteRequest(
         @Email @Size(max = 120) String email,
         @Size(max = 20) String telefono,
         @Valid ConfiguracionMapaRequest configuracionMapa,
-        @Valid @Size(max = 5) List<CuidadorDto> cuidadores,
+        @Valid List<CuidadorDto> cuidadores,
         @Valid MedicoTratanteDto medicoTratante) {
 }
